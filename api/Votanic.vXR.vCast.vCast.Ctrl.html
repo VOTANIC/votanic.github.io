@@ -1,0 +1,1172 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class vCast.Ctrl
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class vCast.Ctrl
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Votanic.vXR.vCast.vCast.Ctrl">
+  
+  
+  <h1 id="Votanic_vXR_vCast_vCast_Ctrl" data-uid="Votanic.vXR.vCast.vCast.Ctrl" class="text-break">Class vCast.Ctrl
+  </h1>
+  <div class="markdown level0 summary"><p>Level 2 functions in IO system, to handle vCast controller.
+<br> 輸入輸出系統中的第二級別的功能，用作處理 vCast 控制器。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">vCast.Ctrl</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Votanic.vXR.vCast.html">Votanic.vXR.vCast</a></h6>
+  <h6><strong>Assembly</strong>: Votanic.vXR.dll</h6>
+  <h5 id="Votanic_vXR_vCast_vCast_Ctrl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Ctrl</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_AxisDown_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisDown*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_AxisDown_System_Int32_Votanic_vIO_AxisDirection_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisDown(System.Int32,Votanic.vIO.AxisDirection,System.Int32)">AxisDown(Int32, AxisDirection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller axis was pressed down.
+<br> 當控制器的軸按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AxisDown(int index, AxisDirection direction = AxisDirection.Any, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Votanic.vIO.AxisDirection</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Axis press direction <br> 軸按下的方向 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_AxisHold_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisHold*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_AxisHold_System_Int32_Votanic_vIO_AxisDirection_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisHold(System.Int32,Votanic.vIO.AxisDirection,System.Int32)">AxisHold(Int32, AxisDirection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller axis was held for a while.
+<br> 當控制器的軸長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AxisHold(int index, AxisDirection direction = AxisDirection.Any, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Votanic.vIO.AxisDirection</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Axis press direction <br> 軸按下的方向 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_AxisPress_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisPress*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_AxisPress_System_Int32_Votanic_vIO_AxisDirection_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisPress(System.Int32,Votanic.vIO.AxisDirection,System.Int32)">AxisPress(Int32, AxisDirection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller axis is pressing.
+<br> 當控制器的軸正在按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AxisPress(int index, AxisDirection direction = AxisDirection.Any, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Votanic.vIO.AxisDirection</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Axis press direction <br> 軸按下的方向 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_AxisUp_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisUp*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_AxisUp_System_Int32_Votanic_vIO_AxisDirection_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisUp(System.Int32,Votanic.vIO.AxisDirection,System.Int32)">AxisUp(Int32, AxisDirection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller axis was released.
+<br> 當控制器的軸放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AxisUp(int index, AxisDirection direction = AxisDirection.Any, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Votanic.vIO.AxisDirection</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Axis press direction <br> 軸按下的方向 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_AxisValue_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisValue*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_AxisValue_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.AxisValue(System.Int32,System.Int32)">AxisValue(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return the floating value of a controller axis.
+<br> 傳回控制器的軸浮點值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AxisValue(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Axis index <br> 軸編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_ButtonDown_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonDown*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_ButtonDown_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonDown(System.Int32,System.Int32)">ButtonDown(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller button is pressed.
+<br> 當控制器的按鈕按下時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ButtonDown(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_ButtonHold_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonHold*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_ButtonHold_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonHold(System.Int32,System.Int32)">ButtonHold(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller button is held for a while.
+<br> 當控制器的按鈕長按一段時間時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ButtonHold(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_ButtonPress_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonPress*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_ButtonPress_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonPress(System.Int32,System.Int32)">ButtonPress(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller button is pressing.
+<br> 當控制器的按鈕正在按住時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ButtonPress(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_ButtonTouch_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_ButtonTouch_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonTouch(System.Int32,System.Int32)">ButtonTouch(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller button is touched.
+<br> 當控制器的按鈕被觸碰時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ButtonTouch(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_ButtonUp_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonUp*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_ButtonUp_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.ButtonUp(System.Int32,System.Int32)">ButtonUp(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Return true if a controller button is released.
+<br> 當控制器的按鈕放開時傳回 true。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ButtonUp(int index, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Button index <br> 按鈕編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_GetAxes_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.GetAxes*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_GetAxes_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.GetAxes(System.Int32)">GetAxes(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get current axes device of the controller.
+<br> 取得目前控制器的軸群。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Axes GetAxes(int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Votanic.vIO.Axes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_GetButtons_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.GetButtons*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_GetButtons_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.GetButtons(System.Int32)">GetButtons(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get current buttons device of the controller.
+<br> 取得目前控制器的按鈕群。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Buttons GetButtons(int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Votanic.vIO.Buttons</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_SetAxes_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetAxes*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_SetAxes_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetAxes(System.Int32,System.Int32)">SetAxes(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set axes device to the controller.
+<br> 為控制器設置軸群裝置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAxes(int axesIndex, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">axesIndex</span></td>
+        <td><p>Axes index in controller axes list <br> 在控制器軸組列表中的軸群編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_SetAxes_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetAxes*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_SetAxes_System_String_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetAxes(System.String,System.Int32)">SetAxes(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set axes device to the controller.
+<br> 為控制器設置軸群裝置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAxes(string axesName, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">axesName</span></td>
+        <td><p>Axes name in controller axes list <br> 在控制器軸組列表中的軸群名稱 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_SetButtons_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetButtons*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_SetButtons_System_Int32_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetButtons(System.Int32,System.Int32)">SetButtons(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set buttons device to the controller.
+<br> 為控制器設置按鈕群裝置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetButtons(int buttonsIndex, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">buttonsIndex</span></td>
+        <td><p>Buttons index in controller buttons list <br> 在控制器按鈕組列表中的按鈕群編號 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_SetButtons_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetButtons*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_SetButtons_System_String_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.SetButtons(System.String,System.Int32)">SetButtons(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set buttons device to the controller.
+<br> 為控制器設置按鈕群裝置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetButtons(string buttonsName, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">buttonsName</span></td>
+        <td><p>Buttons name in controller buttons list <br> 在控制器按鈕組列表中的按鈕群名稱 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_Vibrate_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.Vibrate*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_Vibrate_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.Vibrate(System.Single,System.Int32)">Vibrate(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller.
+<br> 使控制器震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Vibrate(float duration = 0.1F, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_Vibrate_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.Vibrate*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_Vibrate_System_Single_System_Single_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.Vibrate(System.Single,System.Single,System.Single,System.Int32)">Vibrate(Single, Single, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller that has 2 vibration motors.
+<br> 使擁有兩個震動摩打的控制器震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Vibrate(float duration, float left, float right, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left side strength (0 to 1) <br> 左邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right side strength (0 to 1) <br> 右邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_VibrateAxes_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateAxes*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_VibrateAxes_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateAxes(System.Single,System.Int32)">VibrateAxes(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller axes.
+<br> 使控制器軸群震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VibrateAxes(float duration = 0.1F, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_VibrateAxes_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateAxes*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_VibrateAxes_System_Single_System_Single_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateAxes(System.Single,System.Single,System.Single,System.Int32)">VibrateAxes(Single, Single, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller axes that has 2 vibration motors.
+<br> 使擁有兩個震動摩打的控制器軸群震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VibrateAxes(float duration, float left, float right, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left side strength (0 to 1) <br> 左邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right side strength (0 to 1) <br> 右邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_VibrateButtons_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateButtons*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_VibrateButtons_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateButtons(System.Single,System.Int32)">VibrateButtons(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller buttons.
+<br> 使控制器按鈕群震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VibrateButtons(float duration = 0.1F, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Votanic_vXR_vCast_vCast_Ctrl_VibrateButtons_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateButtons*"></a>
+  <h4 id="Votanic_vXR_vCast_vCast_Ctrl_VibrateButtons_System_Single_System_Single_System_Single_System_Int32_" data-uid="Votanic.vXR.vCast.vCast.Ctrl.VibrateButtons(System.Single,System.Single,System.Single,System.Int32)">VibrateButtons(Single, Single, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vibrate the controller buttons that has 2 vibration motors.
+<br> 使擁有兩個震動摩打的控制器按鈕群震動。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VibrateButtons(float duration, float left, float right, int controller = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Vibrate seconds <br> 震動秒數 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left side strength (0 to 1) <br> 左邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right side strength (0 to 1) <br> 右邊強度 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>Controller index <br> 控制器編號 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
